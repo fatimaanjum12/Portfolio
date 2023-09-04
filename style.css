@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.sidebar {
+    text-align: left;
+    background-color: rgba(128, 128, 128, 0.507);
+    width: fit-content;
+    font-family: 'Fira Sans', sans-serif;
+    height: 303vh;
+}
+.sidebar nav {
+    padding: 45px;
+    text-align: left;
+}
+
+.sidebar nav li {
+    list-style: none;
+
+    font-size: 30px;
+
+    padding: 33px 0;
+
+}
+
+.sidebar nav li a {
+    text-decoration: none;
+    color: black;
+}
+
+
+.main {
+    /*  background-color: yellow;*/
+    width: 87vw;
+}
+
+.container {
+    display: flex;
+}
+
+.infoConatiner {
+    /* background-color:yellowgreen ;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+}
+
+.devInfo {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.Hello {
+    font-size: 65px;
+
+}
+
+.Name {
+
+    font-size: 50px;
+    font-weight: bold;
+
+}
+
+.About {
+    font-size: 40px;
+}
+
+.btn {
+    padding: 9px 10px;
+    border-radius: 23px;
+    color: white;
+    background-color: purple;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 10px 3px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn a {
+    text-decoration: none;
+    color: white;
+
+}
+.btn-sm {
+    font-size: 12px;
+    padding: 9px 11px;
+    margin: 12px 0;
+}
+
+.btn a:hover {
+    color: purple;
+    background-color: wheat;
+    text-decoration: none;
+
+
+}
+
+.Devpic img {
+    width: 381px;
+    height: 58vh;
+
+
+}
+
+.contactForm {
+    padding-top: 150px;
+    padding: 0 34px;
+    font-family: 'Fira Sans', sans-serif;
+}
+
+.contactForm h1 {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+}
+
+.contactForm div {
+    padding: 27px 0;
+    margin: 12px 0 0 0;
+}
+.contactForm form div{
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+}
+
+#emailHelp {
+    font-size: 10px;
+    color: mediumblue;
+    margin: 3px 5px;
+    display: flex;
+    flex-direction: column;
+}
+.blogItem{
+    margin: 23px;
+    font-family: 'Fira Sans', sans-serif;
+}
+.blogConatiner h1{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 25px;
+    
+}
+.blogItem p{
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+.devIntro{
+
+    margin: 5px;
+}
+.devIntro h1{
+    display: inline;
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+    
+}
+.devIntro h2{
+    font-family: 'Fira Sans', sans-serif;
+    margin: 12px;
+    
+}
+.devIntro p{
+    
+    font-family: 'Times New Roman', Times, serif;
+    margin: 12px;
+}
+.skillConatainer{
+    padding: 12px;
+}
+.skillItem{
+   display: flex;
+   align-items: center;
+   margin: 12px;
+}
+.skill{
+    width: 256px;
+    height: 7px;
+    background-color: blueviolet;
+    border: 2px solid black
+}
+.t100{
+    width: 256px; ;
+    background-color: blueviolet ;
+}
+
+.t25{
+    width: 50px ;
+    background-color: rgba(183, 43, 226, 0.301) ;
+}
+/*@media(max-width: 1615px){
+
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+    }
+}-->*/
+
+.content{
+    text-align: left;
+   
+    font-family: 'Fira Sans', sans-serif ;
+    margin: 56px;
+}
+.tcehimg{
+    width: 235px;
+}
+.servicesContainer{
+    margin: 12px;
+    margin-top: 10px;
+}
